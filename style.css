@@ -17,13 +17,46 @@ body {
 	color: white;
 	font-size: 2em;
 	font-weight: lighter;
-	padding: .5em;
-	display: inline-block;
-	margin-left: 3%;
+	
 }
 
+.intro h2 {
+  color: white;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.summary {
+	color: white;
+}
+
+.summary a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid rosybrown;
+}
+.summary p:last-child {
+	border-top: 1px solid sienna;
+	padding-top: 1em;
+}
 
 /*Layout Designs*/
+
+/*heading layout*/
+
+.intro h1 {
+  padding: .5em;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.intro h2 {
+	padding-left: 4%;
+}
+
+.summary {
+	padding-left: 4%;
+}
 
 /*Modules - Specific Qualities to replicate*/
 
