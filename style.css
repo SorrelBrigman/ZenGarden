@@ -8,7 +8,18 @@ body {
 .page-wrapper {
   background-color: indianred;
   margin: 7%;
+}
 
+/*heading styles*/
+
+.intro h1 {
+	background-color: sienna;
+	color: white;
+	font-size: 2em;
+	font-weight: lighter;
+	padding: .5em;
+	display: inline-block;
+	margin-left: 3%;
 }
 
 
