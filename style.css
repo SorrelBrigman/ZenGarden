@@ -88,7 +88,41 @@ footer {
 
 /*Layout Designs*/
 
+.page-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	order: 1;
+	flex-grow: 1;
+}
+
+.intro {
+	order: -2;
+	flex-grow: 1;
+	width: 50%;
+
+}
+
+.sidebar {
+	order: -1;
+	flex-grow: 1;
+	width: 20%;
+}
+
+
+
+
+
 /*heading layout*/
+section.intro {
+	width: 50%;
+}
 
 .intro h1 {
   padding: .5em;
@@ -117,7 +151,12 @@ footer {
 .requirements
  {
 	padding: 4%;
-}	
+}
+.explanation,
+.participation {
+	width: 40%;
+}
+
 
 /*Footer Layouts*/
 
