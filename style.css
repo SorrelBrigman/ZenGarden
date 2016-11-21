@@ -77,8 +77,12 @@ footer {
 
 /*Sidebar Stylings*/
 
-.sidebar {
+.wrapper {
 	background-color: tan;
+}
+
+.sidebar {
+	background-color: maroon;
 	color: white;
 }
 
@@ -116,6 +120,8 @@ footer {
 	flex-grow: 1;
 	width: 20%;
 }
+
+
 
 
 
@@ -181,9 +187,12 @@ footer {
 
 
 /*Sidebar Layouts*/
-.sidebar {
-	padding: 4%;
+.wrapper {
+	padding: 2%;
+	margin: 4%;
 }
+
+
 /*Modules - Specific Qualities to replicate*/
 
 /*State*/
