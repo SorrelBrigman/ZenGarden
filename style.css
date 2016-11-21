@@ -75,6 +75,13 @@ footer {
 	background-color: tan;
 }
 
+/*Sidebar Stylings*/
+
+.sidebar {
+	background-color: tan;
+	color: white;
+}
+
 /*Layout Designs*/
 
 /*heading layout*/
@@ -108,7 +115,11 @@ footer {
 	padding: 4%;
 }	
 
+/*Footer Layouts*/
 
+footer {
+	padding: 2%;
+}
 
 /*Modules - Specific Qualities to replicate*/
 
