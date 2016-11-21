@@ -163,10 +163,20 @@ section.intro {
 	margin-right: 0;
 }
 
+.benefits {
+	width: 20%;
+}
+
+
+.requirements {
+	width: 60%;
+}
+
 /*Footer Layouts*/
 
 footer {
 	padding: 2%;
+	width: 100%;
 }
 
 
