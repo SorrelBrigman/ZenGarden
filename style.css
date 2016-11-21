@@ -96,10 +96,12 @@ footer {
 
 .main {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	order: 1;
 	flex-grow: 1;
+	justify-content: space-between;
+	
 }
 
 .intro {
@@ -157,6 +159,9 @@ section.intro {
 	width: 40%;
 }
 
+.participation {
+	margin-right: 0;
+}
 
 /*Footer Layouts*/
 
