@@ -192,6 +192,11 @@ footer {
 	margin: 4%;
 }
 
+.sidebar {
+	margin-right: -70px;
+	margin-top: -60px;
+}
+
 
 /*Modules - Specific Qualities to replicate*/
 
