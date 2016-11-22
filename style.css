@@ -162,6 +162,15 @@ section.intro {
  {
 	padding: 4%;
 }
+
+.preamble {
+  margin-left: -70px;
+  margin-right: -5%;
+  padding-left: 85px;
+  padding-right: 9%;
+
+}
+
 .explanation,
 .participation {
 	width: 40%;
