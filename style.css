@@ -19,6 +19,11 @@ a:hover {
 	border-bottom: 1px solid sienna;
 }
 
+/* for visual element only, holds no content*/
+.extra {
+  background-color: sienna;
+}
+
 
 /*heading styles*/
 
@@ -128,6 +133,14 @@ footer {
 }
 
 
+/* for visual element only, holds no content*/
+.extra {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 20%;
+}
 
 
 
