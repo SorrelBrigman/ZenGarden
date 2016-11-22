@@ -20,7 +20,7 @@ a:hover {
 }
 
 /* for visual element only, holds no content*/
-.extra {
+.sidebar:before {
   background-color: sienna;
 }
 
@@ -134,11 +134,13 @@ footer {
 
 
 /* for visual element only, holds no content*/
-.extra {
+.sidebar:before {
+	content: "";
 	position: absolute;
+	z-index: -1;
 	top: 0;
-	right: 0;
 	bottom: 0;
+	right: 0
 	width: 20%;
 }
 
