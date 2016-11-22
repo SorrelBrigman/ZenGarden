@@ -189,7 +189,8 @@ section.intro {
 
 
 .requirements {
-	width: 60%;
+	width: 55%;
+	margin-right: 5%;
 }
 
 /*Footer Layouts*/
@@ -197,6 +198,7 @@ section.intro {
 footer {
 	padding: 2%;
 	width: 100%;
+
 }
 
 
