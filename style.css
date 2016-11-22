@@ -140,10 +140,12 @@ section.intro {
 
 .intro h2 {
 	padding-left: 4%;
+	padding-right: 5%;
 }
 
 .summary {
 	padding-left: 4%;
+	padding-right: 3%;
 }
 
 .summary p:last-child {
@@ -188,8 +190,11 @@ footer {
 
 /*Sidebar Layouts*/
 .wrapper {
-	padding: 2%;
-	margin: 4%;
+	padding: 4%;
+	margin-top: 75px;
+	margin-right: 10%;
+	margin-left: -20px;
+	
 }
 
 .sidebar {
