@@ -15,6 +15,9 @@ body {
 	color: white;
 	border-bottom: 1px solid rosybrown;
 }
+a:hover {
+	border-bottom: 1px solid sienna;
+}
 
 
 /*heading styles*/
