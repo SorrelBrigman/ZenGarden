@@ -104,7 +104,8 @@ footer {
 	flex-wrap: wrap;
 	order: 1;
 	flex-grow: 1;
-	justify-content: space-between;
+	justify-content: flex-end;
+
 	
 }
 
@@ -182,6 +183,8 @@ section.intro {
 
 .benefits {
 	width: 20%;
+	align-self: center;
+	margin-left: 4%;
 }
 
 
