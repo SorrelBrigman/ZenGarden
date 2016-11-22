@@ -19,10 +19,8 @@ a:hover {
 	border-bottom: 1px solid sienna;
 }
 
-/* for visual element only, holds no content*/
-.sidebar:before {
-  background-color: sienna;
-}
+
+
 
 
 /*heading styles*/
@@ -90,8 +88,12 @@ footer {
 }
 
 .sidebar {
-	background-color: maroon;
+	background-color: transparent;
 	color: white;
+}
+
+.sidebar::after {
+	background-color: maroon;
 }
 
 .sidebar li {
@@ -134,14 +136,14 @@ footer {
 
 
 /* for visual element only, holds no content*/
-.sidebar:before {
+.sidebar::after {
 	content: "";
 	position: absolute;
-	z-index: -1;
 	top: 0;
-	bottom: 0;
-	right: 0
+	right: 0;
 	width: 20%;
+	height: 100%;
+
 }
 
 
