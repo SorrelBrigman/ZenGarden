@@ -107,6 +107,7 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 2%;
+	z-index: -20;
 }
 
 .main {
@@ -134,6 +135,10 @@ footer {
 	width: 20%;
 }
 
+.wrapper {
+	z-index: 2;
+}
+
 
 /* for visual element only, holds no content*/
 .sidebar::after {
@@ -143,6 +148,7 @@ footer {
 	right: 0;
 	width: 20%;
 	height: 100%;
+	z-index: -1;
 
 }
 
